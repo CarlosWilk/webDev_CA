@@ -1,5 +1,23 @@
-#employee-table, th, td {
+#primary_key, #foreign_key{
+width: 20px;
+height: 20px;
+
+}
+
+a[href="index.html"]{
+
+    background-color: black;
+    color:white
+    
+}
+
+th, td {
     border: 1px solid;
+    padding: 5px;
     ;
     }
+
+
+
+
     

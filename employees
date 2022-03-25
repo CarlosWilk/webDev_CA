@@ -13,8 +13,8 @@
     <table id="employee-table">
         <caption> Employee table</caption>
         <thead>                     <!--Reference an icon from Internet as a primary key-->   
-            <th> <img src="https://www.iconshock.com/image/Impressions/Database/primary_key/" width="20" height="20"> Employee_ID</th>
-            <th> <img src="https://www.iconshock.com/image/Brilliant/Database/foreign_key/" widht="20" height="20"> Role_ID</th>
+            <th> <img id="primary_key" src="https://www.iconshock.com/image/Impressions/Database/primary_key/"> Employee_ID</th>
+            <th> <img id="foreign_key" src="https://www.iconshock.com/image/Brilliant/Database/foreign_key/"> Role_ID</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Hire Date</th>
@@ -31,7 +31,7 @@
         <td>02/03/2021</td> <!--Hire date-->
         <td>01/04/1987</td> <!--Date birth-->
         <td>M </td> <!-- Gender-->
-        <td align="center">Y</td> <!-- Is manager-->
+        <td id="ismanager">Y</td> <!-- Is manager-->
     </tbody>
 
     <tbody>
